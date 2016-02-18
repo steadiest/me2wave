@@ -13,9 +13,43 @@
 		FEEC31B51642991A00A346E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31B31642991A00A346E2 /* InfoPlist.strings */; };
 		FEEC31B71642991A00A346E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31B61642991A00A346E2 /* main.m */; };
 		FEEC31BB1642991A00A346E2 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31BA1642991A00A346E2 /* MWAppDelegate.m */; };
-		FEEC31BD1642991A00A346E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31BC1642991A00A346E2 /* Default.png */; };
-		FEEC31BF1642991A00A346E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31BE1642991A00A346E2 /* Default@2x.png */; };
 		FEEC31C11642991A00A346E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31C01642991A00A346E2 /* Default-568h@2x.png */; };
+		FEEC31E51643B03900A346E2 /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31E41643B03900A346E2 /* MWViewController.m */; };
+		FEEC31E91643B13300A346E2 /* me2wave-titlebar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31E71643B13300A346E2 /* me2wave-titlebar@2x.png */; };
+		FEEC31ED1643B1C300A346E2 /* me2wave-titlebar.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31EB1643B1C300A346E2 /* me2wave-titlebar.png */; };
+		FEEC31F21643B52C00A346E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31F01643B52C00A346E2 /* Default.png */; };
+		FEEC31F31643B52C00A346E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEC31F11643B52C00A346E2 /* Default@2x.png */; };
+		FEEC31F71643B64400A346E2 /* MWAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31F61643B64400A346E2 /* MWAccountManager.m */; };
+		FEEC31FA1643B7B700A346E2 /* MWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31F91643B7B700A346E2 /* MWLoginViewController.m */; };
+		FEEC32021643B8F800A346E2 /* MWMe2dayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC32011643B8F800A346E2 /* MWMe2dayClient.m */; };
+		FEEC32031643D17100A346E2 /* MD5Context.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31FC1643B8E200A346E2 /* MD5Context.h */; };
+		FEEC32041643D17100A346E2 /* MD5Context.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31FD1643B8E200A346E2 /* MD5Context.m */; };
+		FEEC32051643D17100A346E2 /* NSData+Extensions.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31FE1643B8E200A346E2 /* NSData+Extensions.h */; };
+		FEEC32061643D17100A346E2 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31FF1643B8E200A346E2 /* NSData+Extensions.m */; };
+		FEEC32071643D17100A346E2 /* MWMe2dayClient.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC32001643B8F800A346E2 /* MWMe2dayClient.h */; };
+		FEEC32081643D17100A346E2 /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D41643AFE600A346E2 /* JSON.h */; };
+		FEEC32091643D17100A346E2 /* NSObject+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D51643AFE600A346E2 /* NSObject+SBJSON.h */; };
+		FEEC320A1643D17100A346E2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D61643AFE600A346E2 /* NSObject+SBJSON.m */; };
+		FEEC320B1643D17100A346E2 /* NSString+SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D71643AFE600A346E2 /* NSString+SBJSON.h */; };
+		FEEC320C1643D17100A346E2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D81643AFE600A346E2 /* NSString+SBJSON.m */; };
+		FEEC320D1643D17100A346E2 /* SBJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31D91643AFE600A346E2 /* SBJSON.h */; };
+		FEEC320E1643D17100A346E2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DA1643AFE600A346E2 /* SBJSON.m */; };
+		FEEC320F1643D17100A346E2 /* SBJsonBase.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DB1643AFE600A346E2 /* SBJsonBase.h */; };
+		FEEC32101643D17100A346E2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DC1643AFE600A346E2 /* SBJsonBase.m */; };
+		FEEC32111643D17100A346E2 /* SBJsonParser.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DD1643AFE600A346E2 /* SBJsonParser.h */; };
+		FEEC32121643D17100A346E2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DE1643AFE600A346E2 /* SBJsonParser.m */; };
+		FEEC32131643D17100A346E2 /* SBJsonWriter.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31DF1643AFE600A346E2 /* SBJsonWriter.h */; };
+		FEEC32141643D17100A346E2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC31E01643AFE600A346E2 /* SBJsonWriter.m */; };
+		FEEC32171643E53000A346E2 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC32151643E52000A346E2 /* OrderedDictionary.m */; };
+		FEEC32181643E53000A346E2 /* OrderedDictionary.h in Sources */ = {isa = PBXBuildFile; fileRef = FEEC32161643E52000A346E2 /* OrderedDictionary.h */; };
+		FEEC321C1644041F00A346E2 /* MWFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC321B1644041F00A346E2 /* MWFriendCell.m */; };
+		FEEC321F1644046500A346E2 /* MWFriendDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC321E1644046400A346E2 /* MWFriendDetails.m */; };
+		FEEC32221644382A00A346E2 /* MWUserPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC32211644382A00A346E2 /* MWUserPostViewController.m */; };
+		FEEC32411644502D00A346E2 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEC32401644502D00A346E2 /* SDWebImage.framework */; };
+		FEEC32431644516C00A346E2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEC32421644516B00A346E2 /* ImageIO.framework */; };
+		FEEC3246164452A100A346E2 /* NSString+Me2TextStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC3245164452A100A346E2 /* NSString+Me2TextStripper.m */; };
+		FEEC3249164456BA00A346E2 /* MWPostDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC3248164456BA00A346E2 /* MWPostDetails.m */; };
+		FEEC324C1644582D00A346E2 /* MWPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC324B1644582D00A346E2 /* MWPostCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +63,52 @@
 		FEEC31B81642991A00A346E2 /* me2wave-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "me2wave-Prefix.pch"; sourceTree = "<group>"; };
 		FEEC31B91642991A00A346E2 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
 		FEEC31BA1642991A00A346E2 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
-		FEEC31BC1642991A00A346E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FEEC31BE1642991A00A346E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FEEC31C01642991A00A346E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEEC31D41643AFE600A346E2 /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FEEC31D51643AFE600A346E2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FEEC31D61643AFE600A346E2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FEEC31D71643AFE600A346E2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FEEC31D81643AFE600A346E2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FEEC31D91643AFE600A346E2 /* SBJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FEEC31DA1643AFE600A346E2 /* SBJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FEEC31DB1643AFE600A346E2 /* SBJsonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FEEC31DC1643AFE600A346E2 /* SBJsonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FEEC31DD1643AFE600A346E2 /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FEEC31DE1643AFE600A346E2 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FEEC31DF1643AFE600A346E2 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FEEC31E01643AFE600A346E2 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FEEC31E31643B03900A346E2 /* MWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
+		FEEC31E41643B03900A346E2 /* MWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		FEEC31E71643B13300A346E2 /* me2wave-titlebar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me2wave-titlebar@2x.png"; sourceTree = "<group>"; };
+		FEEC31EB1643B1C300A346E2 /* me2wave-titlebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me2wave-titlebar.png"; sourceTree = "<group>"; };
+		FEEC31F01643B52C00A346E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FEEC31F11643B52C00A346E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEEC31F51643B64400A346E2 /* MWAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWAccountManager.h; sourceTree = "<group>"; };
+		FEEC31F61643B64400A346E2 /* MWAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWAccountManager.m; sourceTree = "<group>"; };
+		FEEC31F81643B7B700A346E2 /* MWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLoginViewController.h; sourceTree = "<group>"; };
+		FEEC31F91643B7B700A346E2 /* MWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLoginViewController.m; sourceTree = "<group>"; };
+		FEEC31FC1643B8E200A346E2 /* MD5Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD5Context.h; sourceTree = "<group>"; };
+		FEEC31FD1643B8E200A346E2 /* MD5Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Context.m; sourceTree = "<group>"; };
+		FEEC31FE1643B8E200A346E2 /* NSData+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Extensions.h"; sourceTree = "<group>"; };
+		FEEC31FF1643B8E200A346E2 /* NSData+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extensions.m"; sourceTree = "<group>"; };
+		FEEC32001643B8F800A346E2 /* MWMe2dayClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMe2dayClient.h; sourceTree = "<group>"; };
+		FEEC32011643B8F800A346E2 /* MWMe2dayClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMe2dayClient.m; sourceTree = "<group>"; };
+		FEEC32151643E52000A346E2 /* OrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		FEEC32161643E52000A346E2 /* OrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		FEEC321A1644041F00A346E2 /* MWFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFriendCell.h; sourceTree = "<group>"; };
+		FEEC321B1644041F00A346E2 /* MWFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFriendCell.m; sourceTree = "<group>"; };
+		FEEC321D1644046400A346E2 /* MWFriendDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFriendDetails.h; sourceTree = "<group>"; };
+		FEEC321E1644046400A346E2 /* MWFriendDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFriendDetails.m; sourceTree = "<group>"; };
+		FEEC32201644382A00A346E2 /* MWUserPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWUserPostViewController.h; sourceTree = "<group>"; };
+		FEEC32211644382A00A346E2 /* MWUserPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWUserPostViewController.m; sourceTree = "<group>"; };
+		FEEC32401644502D00A346E2 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = ../../../Downloads/SDWebImage.framework; sourceTree = "<group>"; };
+		FEEC32421644516B00A346E2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FEEC3244164452A000A346E2 /* NSString+Me2TextStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Me2TextStripper.h"; sourceTree = "<group>"; };
+		FEEC3245164452A100A346E2 /* NSString+Me2TextStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Me2TextStripper.m"; sourceTree = "<group>"; };
+		FEEC3247164456BA00A346E2 /* MWPostDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPostDetails.h; sourceTree = "<group>"; };
+		FEEC3248164456BA00A346E2 /* MWPostDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPostDetails.m; sourceTree = "<group>"; };
+		FEEC324A1644582D00A346E2 /* MWPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPostCell.h; sourceTree = "<group>"; };
+		FEEC324B1644582D00A346E2 /* MWPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPostCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEC32431644516C00A346E2 /* ImageIO.framework in Frameworks */,
+				FEEC32411644502D00A346E2 /* SDWebImage.framework in Frameworks */,
 				FEEC31AB1642991A00A346E2 /* UIKit.framework in Frameworks */,
 				FEEC31AD1642991A00A346E2 /* Foundation.framework in Frameworks */,
 				FEEC31AF1642991A00A346E2 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +130,8 @@
 		FEEC319B1642991A00A346E2 = {
 			isa = PBXGroup;
 			children = (
+				FEEC32421644516B00A346E2 /* ImageIO.framework */,
+				FEEC32401644502D00A346E2 /* SDWebImage.framework */,
 				FEEC31B01642991A00A346E2 /* me2wave */,
 				FEEC31A91642991A00A346E2 /* Frameworks */,
 				FEEC31A71642991A00A346E2 /* Products */,
@@ -78,6 +159,10 @@
 		FEEC31B01642991A00A346E2 /* me2wave */ = {
 			isa = PBXGroup;
 			children = (
+				FEEC3219164403E500A346E2 /* View */,
+				FEEC31FB1643B85A00A346E2 /* Me2day API */,
+				FEEC31F41643B62A00A346E2 /* Account */,
+				FEEC31D31643AFAD00A346E2 /* JSON */,
 				FEEC31B91642991A00A346E2 /* MWAppDelegate.h */,
 				FEEC31BA1642991A00A346E2 /* MWAppDelegate.m */,
 				FEEC31B11642991A00A346E2 /* Supporting Files */,
@@ -88,15 +173,84 @@
 		FEEC31B11642991A00A346E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEEC31F01643B52C00A346E2 /* Default.png */,
+				FEEC31F11643B52C00A346E2 /* Default@2x.png */,
+				FEEC31EB1643B1C300A346E2 /* me2wave-titlebar.png */,
+				FEEC31E71643B13300A346E2 /* me2wave-titlebar@2x.png */,
 				FEEC31B21642991A00A346E2 /* me2wave-Info.plist */,
 				FEEC31B31642991A00A346E2 /* InfoPlist.strings */,
 				FEEC31B61642991A00A346E2 /* main.m */,
 				FEEC31B81642991A00A346E2 /* me2wave-Prefix.pch */,
-				FEEC31BC1642991A00A346E2 /* Default.png */,
-				FEEC31BE1642991A00A346E2 /* Default@2x.png */,
 				FEEC31C01642991A00A346E2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEEC31D31643AFAD00A346E2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC31D41643AFE600A346E2 /* JSON.h */,
+				FEEC31D51643AFE600A346E2 /* NSObject+SBJSON.h */,
+				FEEC31D61643AFE600A346E2 /* NSObject+SBJSON.m */,
+				FEEC31D71643AFE600A346E2 /* NSString+SBJSON.h */,
+				FEEC31D81643AFE600A346E2 /* NSString+SBJSON.m */,
+				FEEC31D91643AFE600A346E2 /* SBJSON.h */,
+				FEEC31DA1643AFE600A346E2 /* SBJSON.m */,
+				FEEC31DB1643AFE600A346E2 /* SBJsonBase.h */,
+				FEEC31DC1643AFE600A346E2 /* SBJsonBase.m */,
+				FEEC31DD1643AFE600A346E2 /* SBJsonParser.h */,
+				FEEC31DE1643AFE600A346E2 /* SBJsonParser.m */,
+				FEEC31DF1643AFE600A346E2 /* SBJsonWriter.h */,
+				FEEC31E01643AFE600A346E2 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		FEEC31F41643B62A00A346E2 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC31F51643B64400A346E2 /* MWAccountManager.h */,
+				FEEC31F61643B64400A346E2 /* MWAccountManager.m */,
+				FEEC31F81643B7B700A346E2 /* MWLoginViewController.h */,
+				FEEC31F91643B7B700A346E2 /* MWLoginViewController.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		FEEC31FB1643B85A00A346E2 /* Me2day API */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC32151643E52000A346E2 /* OrderedDictionary.m */,
+				FEEC32161643E52000A346E2 /* OrderedDictionary.h */,
+				FEEC31FC1643B8E200A346E2 /* MD5Context.h */,
+				FEEC31FD1643B8E200A346E2 /* MD5Context.m */,
+				FEEC31FE1643B8E200A346E2 /* NSData+Extensions.h */,
+				FEEC31FF1643B8E200A346E2 /* NSData+Extensions.m */,
+				FEEC32001643B8F800A346E2 /* MWMe2dayClient.h */,
+				FEEC32011643B8F800A346E2 /* MWMe2dayClient.m */,
+				FEEC3244164452A000A346E2 /* NSString+Me2TextStripper.h */,
+				FEEC3245164452A100A346E2 /* NSString+Me2TextStripper.m */,
+			);
+			name = "Me2day API";
+			sourceTree = "<group>";
+		};
+		FEEC3219164403E500A346E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC31E31643B03900A346E2 /* MWViewController.h */,
+				FEEC31E41643B03900A346E2 /* MWViewController.m */,
+				FEEC321A1644041F00A346E2 /* MWFriendCell.h */,
+				FEEC321B1644041F00A346E2 /* MWFriendCell.m */,
+				FEEC321D1644046400A346E2 /* MWFriendDetails.h */,
+				FEEC321E1644046400A346E2 /* MWFriendDetails.m */,
+				FEEC32201644382A00A346E2 /* MWUserPostViewController.h */,
+				FEEC32211644382A00A346E2 /* MWUserPostViewController.m */,
+				FEEC3247164456BA00A346E2 /* MWPostDetails.h */,
+				FEEC3248164456BA00A346E2 /* MWPostDetails.m */,
+				FEEC324A1644582D00A346E2 /* MWPostCell.h */,
+				FEEC324B1644582D00A346E2 /* MWPostCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEEC31B51642991A00A346E2 /* InfoPlist.strings in Resources */,
-				FEEC31BD1642991A00A346E2 /* Default.png in Resources */,
-				FEEC31BF1642991A00A346E2 /* Default@2x.png in Resources */,
 				FEEC31C11642991A00A346E2 /* Default-568h@2x.png in Resources */,
+				FEEC31E91643B13300A346E2 /* me2wave-titlebar@2x.png in Resources */,
+				FEEC31ED1643B1C300A346E2 /* me2wave-titlebar.png in Resources */,
+				FEEC31F21643B52C00A346E2 /* Default.png in Resources */,
+				FEEC31F31643B52C00A346E2 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +321,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEC32171643E53000A346E2 /* OrderedDictionary.m in Sources */,
+				FEEC32181643E53000A346E2 /* OrderedDictionary.h in Sources */,
+				FEEC32031643D17100A346E2 /* MD5Context.h in Sources */,
+				FEEC32041643D17100A346E2 /* MD5Context.m in Sources */,
+				FEEC32051643D17100A346E2 /* NSData+Extensions.h in Sources */,
+				FEEC32061643D17100A346E2 /* NSData+Extensions.m in Sources */,
+				FEEC32071643D17100A346E2 /* MWMe2dayClient.h in Sources */,
+				FEEC32081643D17100A346E2 /* JSON.h in Sources */,
+				FEEC32091643D17100A346E2 /* NSObject+SBJSON.h in Sources */,
+				FEEC320A1643D17100A346E2 /* NSObject+SBJSON.m in Sources */,
+				FEEC320B1643D17100A346E2 /* NSString+SBJSON.h in Sources */,
+				FEEC320C1643D17100A346E2 /* NSString+SBJSON.m in Sources */,
+				FEEC320D1643D17100A346E2 /* SBJSON.h in Sources */,
+				FEEC320E1643D17100A346E2 /* SBJSON.m in Sources */,
+				FEEC320F1643D17100A346E2 /* SBJsonBase.h in Sources */,
+				FEEC32101643D17100A346E2 /* SBJsonBase.m in Sources */,
+				FEEC32111643D17100A346E2 /* SBJsonParser.h in Sources */,
+				FEEC32121643D17100A346E2 /* SBJsonParser.m in Sources */,
+				FEEC32131643D17100A346E2 /* SBJsonWriter.h in Sources */,
+				FEEC32141643D17100A346E2 /* SBJsonWriter.m in Sources */,
 				FEEC31B71642991A00A346E2 /* main.m in Sources */,
 				FEEC31BB1642991A00A346E2 /* MWAppDelegate.m in Sources */,
+				FEEC31E51643B03900A346E2 /* MWViewController.m in Sources */,
+				FEEC31F71643B64400A346E2 /* MWAccountManager.m in Sources */,
+				FEEC31FA1643B7B700A346E2 /* MWLoginViewController.m in Sources */,
+				FEEC32021643B8F800A346E2 /* MWMe2dayClient.m in Sources */,
+				FEEC321C1644041F00A346E2 /* MWFriendCell.m in Sources */,
+				FEEC321F1644046500A346E2 /* MWFriendDetails.m in Sources */,
+				FEEC32221644382A00A346E2 /* MWUserPostViewController.m in Sources */,
+				FEEC3246164452A100A346E2 /* NSString+Me2TextStripper.m in Sources */,
+				FEEC3249164456BA00A346E2 /* MWPostDetails.m in Sources */,
+				FEEC324C1644582D00A346E2 /* MWPostCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +391,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -225,7 +411,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -235,9 +421,14 @@
 		FEEC31C51642991A00A346E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "me2wave/me2wave-Prefix.pch";
 				INFOPLIST_FILE = "me2wave/me2wave-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -246,9 +437,14 @@
 		FEEC31C61642991A00A346E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "me2wave/me2wave-Prefix.pch";
 				INFOPLIST_FILE = "me2wave/me2wave-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

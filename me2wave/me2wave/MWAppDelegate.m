@@ -7,6 +7,7 @@
 //
 
 #import "MWAppDelegate.h"
+#import "MWViewController.h"
 
 @implementation MWAppDelegate
 
@@ -21,6 +22,20 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MWViewController *controller = [[MWViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    
+    [navController.navigationBar setBackgroundImage:[UIImage imageNamed:@"me2wave-titlebar.png"] forBarMetrics:UIBarMetricsDefault];
+    navController.navigationBar.tintColor = [UIColor colorWithRed:90.0/255 green:50.0/255 blue:180.0/255 alpha:0];
+    
+   // UIBarButtonItem *left = [UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:<#(id)#> action:<#(SEL)#>
+    [self.window setRootViewController:navController];
+    [self.window addSubview:navController.view];
+    [controller release];
+    [navController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
