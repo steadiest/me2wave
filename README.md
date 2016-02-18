@@ -6,5 +6,5 @@ me2wave
 What is me2day api v2?
 * brand-new RESTful APIs
 * Enables fetching multiple requests - Link API
-** Invocation options are sequential, concurrent
-** Result chaining
+  * Invocation options are sequential, concurrent
+  * Result chaining
